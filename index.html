@@ -1,0 +1,85 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariad Hossain| Software Engineer Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("LQvnupVhlvVro0rpw");
+        })();
+    </script>
+</head>
+
+<body>
+
+<div class="bg-animate"></div>
+
+<main class="main-card">
+    <div class="profile-sidebar">
+        <div class="profile-img-container">
+            <img src="https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-6/476617429_2011269656014454_7228885326899759054_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFwWp0qbKlniZ9rGMtHT6nDYpAvo9vtui9ikC-j2-26L3Nt2HoBlNXbRiHUXMq5llRV6i5gju3LP1mwrNAQSdZ1&_nc_ohc=2tgxc25h240Q7kNvwEkFT9d&_nc_oc=AdluM8rezGCdk1H5YLYivo3f6d_MNYZOfFJXpeOGHi066O5rJ4FgekLEgbK3oMpsHds&_nc_zt=23&_nc_ht=scontent.fdac138-2.fna&_nc_gid=oP38VbEy9V5RdjRnNWpv2A&oh=00_AfrfXCQjOJaR8zGCu_rpt442dFSDBEIcMgtxoYihKg73ew&oe=696D1D39 " alt="Mariad Hossain">
+            <div class="status-badge">Available for Hire</div>
+        </div>
+
+        <div class="profile-details">
+            <h1>Mariad Hossain</h1>
+            <p class="role">Computer Science Student</p>
+
+            <div class="divider"></div>
+
+            <ul class="contact-info">
+                <li><i class="fa-regular fa-envelope"></i> 2022200000190@seu.edu.bd</li>
+                <li><i class="fa-solid fa-location-dot"></i> Dhaka, Bangladesh</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="contact-content">
+        <header>
+            <h2>Let's Work Together</h2>
+            <p>I’m open to new opportunities and collaborative projects.</p>
+        </header>
+
+        <form id="contact-form" class="form-grid">
+            <div class="input-wrapper">
+                <label>Your Name</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="input-wrapper">
+                <label>Email Address</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="input-wrapper full-width">
+                <label>Subject</label>
+                <input type="text" id="subject" placeholder="Project Inquiry">
+            </div>
+
+            <div class="input-wrapper full-width">
+                <label>Message</label>
+                <textarea id="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                <span>Send Inquiry</span>
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+        </form>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
